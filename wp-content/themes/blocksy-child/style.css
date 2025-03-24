@@ -1,0 +1,51 @@
+/**
+ * Theme Name: Blocksy Child
+ * Description: Blocksy Child theme
+ * Author: Creative Themes
+ * Template: blocksy
+ * Text Domain: blocksy
+ */
+
+
+ /* Loop products start */
+ .products li figure a{
+    height: 200px ;
+}
+
+
+
+
+
+ .ct-woo-card-actions {
+    width: 100%;
+    margin: 0;
+    margin-top: -23px !important;
+ }
+.ct-woo-card-actions a{
+    width: 100% !important;
+    font-size: 12px;
+    
+    
+}
+.ct-woo-card-actions a i{
+    margin: 0 10px;
+}
+
+
+/* Loop Products End */
+
+
+
+/* Single Product */
+.ct-cart-actions{
+    display: flex;
+    flex-direction: column;
+}
+.ct-cart-actions .quantity{
+    
+    width: fit-content !important;
+}
+
+.wpcbn-btn-single {
+    background-color: black !important;
+}

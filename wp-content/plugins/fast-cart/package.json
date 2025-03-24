@@ -1,0 +1,38 @@
+{
+  "name": "fast-cart",
+  "version": "1.1.0",
+  "description": "Beautiful & Responsive floating cart to ensure the best shopping experience and more sales.",
+  "main": "index.js",
+  "scripts": {
+    "min-js": "minify  public/js/public.js > public/js/public.min.js",
+    "min-css": "minify  public/css/public.css > public/css/public.min.css",
+    "rtl-css": "rtlcss  public/css/public.css public/css/public-rtl.css",
+    "rtl-min-css": "minify  public/css/public-rtl.css > public/css/public.min-rtl.css",
+    "rtl-admin-css": "rtlcss  admin/css/backend.css admin/css/backend-rtl.css",
+    "min-wpx-css": "minify  includes/wpxtension/wpxtension-admin.css > includes/wpxtension/wpxtension-admin.min.css",
+    "rtl-wpx-css": "rtlcss  includes/wpxtension/wpxtension-admin.css includes/wpxtension/wpxtension-admin-rtl.css",
+    "min-rtl-wpx-css": "rtlcss  includes/wpxtension/wpxtension-admin-rtl.css includes/wpxtension/wpxtension-admin.min-rtl.css",
+    "pot": "npx @wp-blocks/make-pot . languages/fast-cart.pot",
+    "all": "npm-run-all --serial min-js min-css rtl-css rtl-min-css rtl-admin-css min-wpx-css rtl-wpx-css min-rtl-wpx-css pot"
+  },
+  "author": "wpxteam",
+  "license": "ISC",
+  "dependencies": {
+    "minify": "^9.2.0",
+    "npm-run-all": "^4.1.5",
+    "rtlcss": "^4.1.0"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": false,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  }
+}

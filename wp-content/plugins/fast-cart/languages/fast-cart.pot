@@ -1,0 +1,351 @@
+# Copyright (C) 2025 fast-cart
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: fast-cart 1.1.0\n"
+"Report-Msgid-Bugs-To: WPXtension <EMAIL>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"POT-Creation-Date: 2025-02-27T10:13:08.442Z\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WPXtension <EMAIL>\n"
+"Language-Team: WPXtension <EMAIL>\n"
+"X-Generator: @wp-blocks/make-pot 1.4.0\n"
+"Language: en\n"
+"domain: X-Domain: fast-cart\n"
+
+#: fast-cart.php
+#. Name of the plugin
+msgid "Fast Cart for WooCommerce"
+msgstr ""
+
+#: fast-cart.php
+#. Url of the plugin
+msgid "https://wpxtension.com/"
+msgstr ""
+
+#: fast-cart.php
+#. Description of the plugin
+msgid ""
+"Beautiful & Responsive floating cart to ensure the best shopping experience "
+"and more sales. ???"
+msgstr ""
+
+#: fast-cart.php
+#. Author of the plugin
+msgid "WPXtension"
+msgstr ""
+
+#: fast-cart.php
+#. Author URI of the plugin
+msgid "https://wpxtension.com"
+msgstr ""
+
+#: fast-cart.php:39
+msgid "<strong>Fast Cart for WooCommerce</strong> is an add-on of "
+msgstr ""
+
+#: fast-cart.php:47
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/layout.php:4
+msgid "Fast Cart for WooCommerce Settings"
+msgstr ""
+
+#: includes/layout.php:43
+msgid "General"
+msgstr ""
+
+#: includes/layout.php:44
+msgid "Styling"
+msgstr ""
+
+#: includes/layout.php:73
+msgid "Save Settings"
+msgstr ""
+
+#: includes/layout.php:94
+msgid "Are you sure to reset?"
+msgstr ""
+
+#: includes/layout.php:94
+msgid "Reset Current Tab"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:147
+#: includes/class-fast-cart-front.php:169
+#: includes/class-fast-cart-front.php:204
+#: includes/class-fast-cart-front.php:219
+msgid "Shopping Cart"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:308
+msgid "Are you sure? It will remove all the carted items."
+msgstr ""
+
+#: includes/class-fast-cart-front.php:479
+msgid "Total:"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:501
+msgid "(includes %1$s estimated for %2$s)"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:504
+msgid "(includes %s)"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:521
+msgid "Subtotal:"
+msgstr ""
+
+#: includes/class-fast-cart-front.php:533
+msgid "View cart"
+msgstr ""
+
+#: includes/class-fast-cart-admin-settings.php:162
+msgid "Settings"
+msgstr ""
+
+#: includes/class-fast-cart-admin-settings.php:223
+msgid "Security check"
+msgstr ""
+
+#: includes/templates/fast-mini-cart.php:43
+#: includes/setting-tab/general.php:216
+msgid "Empty Cart"
+msgstr ""
+
+#: includes/templates/fast-mini-cart.php:147
+msgid "Remove this item"
+msgstr ""
+
+#: includes/templates/fast-mini-cart.php:191
+msgid "No products in the cart."
+msgstr ""
+
+#: includes/setting-tab/styling.php:3
+msgid "Tray Style"
+msgstr ""
+
+#: includes/setting-tab/styling.php:12
+msgid "Mode"
+msgstr ""
+
+#: includes/setting-tab/styling.php:27
+msgid ""
+"You can set your desired light/dark color from below. Initially, #ffffff "
+"for light and #222222 for dark."
+msgstr ""
+
+#: includes/setting-tab/styling.php:35
+msgid "Light Mode Color"
+msgstr ""
+
+#: includes/setting-tab/styling.php:49
+msgid "Dark Mode Color"
+msgstr ""
+
+#: includes/setting-tab/styling.php:63
+msgid "Color"
+msgstr ""
+
+#: includes/setting-tab/styling.php:76
+msgid "Tray Bottom Color"
+msgstr ""
+
+#: includes/setting-tab/styling.php:90
+msgid "Tray Bottom Border Color"
+msgstr ""
+
+#: includes/setting-tab/styling.php:105
+msgid "Buttons Style"
+msgstr ""
+
+#: includes/setting-tab/general.php:3
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/setting-tab/general.php:11
+msgid "Open on AJAX Add to Cart"
+msgstr ""
+
+#: includes/setting-tab/general.php:15
+msgid ""
+"Fast cart will be opened immediately after whenever click to AJAX Add to "
+"cart buttons"
+msgstr ""
+
+#: includes/setting-tab/general.php:25
+msgid "Open on Normal Add to Cart"
+msgstr ""
+
+#: includes/setting-tab/general.php:29
+msgid ""
+"Fast cart will be opened immediately after whenever click to normal Add to "
+"cart buttons (AJAX is not enable) or Add to cart button in single product "
+"page"
+msgstr ""
+
+#: includes/setting-tab/general.php:39
+msgid "Hide Overlay layer"
+msgstr ""
+
+#: includes/setting-tab/general.php:43
+msgid ""
+"If you hide the overlay layer, the user still can work on your site even "
+"the cart tray is open."
+msgstr ""
+
+#: includes/setting-tab/general.php:44
+msgid ""
+"If you enable this option, by default, a close icon will appear on the cart "
+"tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:53
+msgid "How to Close Floating Tray"
+msgstr ""
+
+#: includes/setting-tab/general.php:77
+msgid "Floating Tray Position"
+msgstr ""
+
+#: includes/setting-tab/general.php:116
+msgid "Refresh Cart on Page Load"
+msgstr ""
+
+#: includes/setting-tab/general.php:120
+msgid ""
+"Will refresh the fragment and display the effects of settings immediately "
+"on the frontend after reloading page."
+msgstr ""
+
+#: includes/setting-tab/general.php:150
+msgid "Place Cart Icon in Menus"
+msgstr ""
+
+#: includes/setting-tab/general.php:155
+msgid ""
+"Choose the menu(s) you want to add toggle cart icon and total at the end, "
+"to trigger the cart tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:164
+msgid "Item Settings"
+msgstr ""
+
+#: includes/setting-tab/general.php:173
+msgid "Link Behaviour of Item"
+msgstr ""
+
+#: includes/setting-tab/general.php:202
+msgid "Reverse Item"
+msgstr ""
+
+#: includes/setting-tab/general.php:206
+msgid "Display current cart items at the top of the cart tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:220
+msgid "Display a link to remove all the carted items."
+msgstr ""
+
+#: includes/setting-tab/general.php:229
+msgid "Confirm Empty"
+msgstr ""
+
+#: includes/setting-tab/general.php:233
+msgid "Display a confirmation alert before emptying cart."
+msgstr ""
+
+#: includes/setting-tab/general.php:243
+msgid "Enable regular price"
+msgstr ""
+
+#: includes/setting-tab/general.php:247
+msgid "Display the strikethrough regular price."
+msgstr ""
+
+#: includes/setting-tab/general.php:257
+msgid "Disable Remove Button"
+msgstr ""
+
+#: includes/setting-tab/general.php:261
+msgid "Hide the remove button for the item."
+msgstr ""
+
+#: includes/setting-tab/general.php:272
+msgid "Enable Quantity Field"
+msgstr ""
+
+#: includes/setting-tab/general.php:276
+msgid "Display Quantity Field to increase the carted product from cart tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:286
+msgid "Enable +/- Button"
+msgstr ""
+
+#: includes/setting-tab/general.php:290
+msgid ""
+"Display +/- button with Quantity Field to increase the carted product from "
+"cart tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:300
+msgid "Display Total"
+msgstr ""
+
+#: includes/setting-tab/general.php:304
+msgid "Display Total bottom of the cart tray."
+msgstr ""
+
+#: includes/setting-tab/general.php:315
+msgid "Icon Settings"
+msgstr ""
+
+#: includes/setting-tab/general.php:321
+msgid "Icons to Display"
+msgstr ""
+
+#: includes/setting-tab/general.php:333
+msgid "More Icons"
+msgstr ""
+
+#: includes/setting-tab/general.php:364
+msgid "Floating Cart Settings"
+msgstr ""
+
+#: includes/setting-tab/general.php:372
+msgid "Enable Floating Icon"
+msgstr ""
+
+#: includes/setting-tab/general.php:376
+msgid "Enable Foating Icon."
+msgstr ""
+
+#: includes/setting-tab/general.php:386
+msgid "Position"
+msgstr ""
+
+#: includes/setting-tab/general.php:421
+msgid "Enable Shake Effect"
+msgstr ""
+
+#: includes/setting-tab/general.php:425
+msgid ""
+"Shake the icon when some items added into the cart. It is a reminder for "
+"your user to finish the checkout process."
+msgstr ""
+
+#: includes/setting-tab/general.php:435
+msgid "Hide if empty"
+msgstr ""
+
+#: includes/setting-tab/general.php:439
+msgid "Hide the icon if cart is empty."
+msgstr ""

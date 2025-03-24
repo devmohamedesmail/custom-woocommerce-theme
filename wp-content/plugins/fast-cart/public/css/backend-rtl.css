@@ -1,0 +1,78 @@
+.wpxtension_page_fast-cart  .radiolist li i{
+	font-size: 20px;
+	padding: 7px;
+	border: 1px solid #c3c4c7;
+}
+
+.wpxtension_page_fast-cart .more-icons i{
+	transition: all 0.2s ease-in-out;
+}
+
+.wpxtension_page_fast-cart .more-icons.close i {
+    transform: rotateZ(-45deg);
+}
+
+.wpxtension_page_fast-cart .all-icons{
+	width: 100%;
+	max-width: 200px;
+	margin: 15px 0;
+	display: none;
+}
+
+.wpxtension_page_fast-cart .all-icons ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.wpxtension_page_fast-cart .all-icons ul li {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.wpxtension_page_fast-cart .all-icons ul li label input[type="radio"] {
+	position: absolute;
+	visibility: hidden;
+	top: 0;
+	right: 0;
+}
+
+.wpxtension_page_fast-cart .all-icons ul li label span {
+	font-size: 20px;
+	border: 1px solid #c3c4c7;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wpxtension_page_fast-cart .all-icons ul li label input:checked + span,
+.wpxtension_page_fast-cart .all-icons ul li label input:hover + span {
+	border: 1px solid #8012f9;
+	color: #fff;
+	background-color: #8012f9;
+}
+
+/* Buttons style Admin CSS */
+.wpxtension_page_fast-cart .buttons-style label span img {
+    max-width: 40px;
+    border: 2px solid #a9a9a9;
+}
+
+.wpxtension_page_fast-cart .buttons-style label span img:not(last-child) {
+    margin-left: 5px;
+}
+
+.wpxtension_page_fast-cart .buttons-style label input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+}
+
+.wpxtension_page_fast-cart .buttons-style label input:checked+span img{
+    border-color: #8012f9;
+}

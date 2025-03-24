@@ -139,10 +139,11 @@ add_action( 'widgets_init', 'selim_store_widgets_init' );
  */
 function selim_store_scripts() {
 	wp_enqueue_style( 'selim-store-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'selim-store-tailwind', 'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4' );
 	wp_style_add_data( 'selim-store-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'selim-store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
+	wp_enqueue_script( 'selim-store-tailwind-script',  'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4' );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
